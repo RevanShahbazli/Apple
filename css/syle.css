@@ -1,0 +1,351 @@
+
+.mavi{color: #0071e3;}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bgray{background-color: #f2f2f2;}
+.container{max-width: 1200px;}
+#logo img{
+    width: 32px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: .7em;
+    font-weight: bold;
+}
+menu{list-style: none; padding: 0;}
+.icons menu li a{
+    font:400 1em/2 "Arial";
+
+}
+.icons{overflow: hidden;}
+.col-1 p{
+    font: 400 .7em "Arial";
+}
+.hmid{
+    overflow-x: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.hmid .container .row{
+    min-width: 1000px;
+}
+.hbot p{font: 400 1.3em "Arial";}
+.hbot a{font: 400 1em "Arial";}
+#titanium{
+   height: 100vh;
+   min-height: 800px;
+    background-color: #000;
+    padding: 40px 0;
+}
+ .new{
+    color: #bf4800;
+    font: normal .8em "Arial";
+}
+#titanium .logo{
+    width:250px ;
+}
+#titanium .price{
+    font: normal .9em "Arial";
+    color: #fff;
+}
+.link{font: normal 1em "Arial"; }
+.inlineblock{
+    display: inline-block;
+    width: 100px;
+}
+#titanium h5{
+    font: normal 1.1em "Arial";
+    color: #8b887e;
+}
+#titanium .col-12{
+    min-height: 40vh;
+}
+
+#titanium .phone img{
+    height: 400px;
+}
+#nephoria{
+    min-height: 600px;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#nephoria .bgimg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 40vh;
+    bottom: 0px;
+    background: url(../img/newphoria.jpeg) center/contain no-repeat;
+}
+#power .container .img img{
+    width: 100%;
+}
+#power .container h6{
+    font: normal 1.1em "Arial";
+}
+#power .container h2{
+    color: #1e3791;
+    font: bold 2em/1.5 "Arial";
+}
+#power .container p{
+    font: normal 1.2em "Arial";
+}
+
+#guided h5{
+    font: bold 1.5em "Arial";
+}
+#guided p{
+    font: normal 1.8em "Arial";
+}
+#guided .black img{
+    width: 100%;
+}
+#specials{
+    min-height: 100vh;
+    padding: 40px 0;
+}
+#specials {
+    width: 100%;
+}
+#specials .phone{
+    object-fit: contain;
+    max-width: 100%;
+    height: 85%;
+  }
+  #specials h1{
+    font: bold 3em "Arial";
+    margin-bottom: 20px;
+  }
+
+.btn:hover{
+    box-shadow: 5px 5px 5px black;
+}
+.font7{font-size: .7em;}
+.font2{font: bold 2em "Arial";}
+.normal2{font: normal 2em "Arial";}
+
+.font3{font: bold 2.8em "Arial";}
+.font15{font: bold 1.5em "Arial";}
+
+.txtboz{color: #6e6e73;}
+.size{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.bgboz{
+    background-color: #f2f2f2;
+}
+#saveIphone h2{
+    font: normal 3em "Arial";
+}
+#saveIphone .best{
+    background: url(../img/best.jpeg) center/cover  ;
+    height: 70vh;
+    min-height: 300px;
+}
+#saveIphone .place{
+    font: bold 1em "Arial";
+}
+#featured .airtag{
+    min-height: 300px;
+    background: url(../img/brelok.jpg) center/contain;
+}
+#featured .magic{
+    min-height: 400px;
+    background: url(../img/appleheadphone.jpeg) center/contain no-repeat;
+}
+#ios .phones{
+    background: url(../img/ios17.jpg) center/cover;
+    min-height: 400px;
+}
+#getmore .programs{
+    background: url(../img/programsa.jpeg) center/contain no-repeat;
+    min-height: 300px;
+}
+#getmore .research{
+    background: url(../img/research_app.jpg) center/contain no-repeat;
+    min-height: 300px;
+}
+.boz{
+    font-size: .9em;
+    color: #0000007a;
+    text-align: justify;
+}
+#about ol{
+    padding-left: 30px;
+}
+#about .container{
+    border-bottom: 2px solid #0000004b ;
+}
+.accordion-item{
+    border: none !important;
+    border-bottom: 1px solid #0000004b !important;
+}
+footer ul li{
+    font:normal .9em "Arial,Helvetica,sans-serif";
+    color: #000000bd;
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+   
+    #nephoria{
+        min-height: 400px;
+    }
+    #nephoria .bgimg{
+        height: 45vh;
+        width: 100%;
+        bottom: -100px;
+    }
+    #power .col img{
+        max-height: 100vh;
+    }
+    #guided{
+        height: 100vh;
+        min-height: 700px;
+        position: relative;
+    }
+    #guided .black{
+        height: 100vh;
+        min-height: 600px;
+        z-index: -1;
+        position: absolute;
+    }
+    #guided .black img{
+        border-radius: 10px;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+    }
+    #guided p{
+        font: normal 3em "Arial";
+    }
+    #guided a{
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 15px;
+    }
+    #guided .text{
+        text-align: left !important;
+        position: relative;
+        padding: 40px;
+        left: 30vw;
+        top: 50vh;
+        text-align: left;
+        color: #fff;
+        left: 0;
+        
+    }
+    #saveIphone .card{
+        width: 32%;
+    }
+    #saveIphone .place{
+        font: bold 2em "Arial";
+    }
+    #ios .privacy ,#getmore .privacy{
+        width: 47%;
+        margin: 10px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 992px) {
+    menu{
+        display: none;
+    }
+    #titanium .phone img{
+        height: 811px;
+        width: 170px;
+        position: relative;
+        top: -200px;
+        transform: rotate(270deg);
+    }
+    #nephoria{
+        height: 100vh;
+        min-height: 500px;
+    }
+    #nephoria .price{
+        font: normal .9em "Arial";
+        color: #000;
+    }
+    #nephoria h3{font: normal 2.8em "Arial";}
+    #nephoria h5{
+        font: normal 1.1em "Arial";
+        color: #000;
+    }
+    
+  
+    #nephoria .bgimg{
+        height: 77vh;
+        background: url(../img/newphoria.jpeg) center/contain no-repeat;
+        width: 100%;
+        bottom: -130px;
+    }
+    #power{
+        height: 100vh;
+        min-height: 500px;
+    }
+    #power .col img{
+        max-height: 100vh;
+        min-height: 500px;
+    }
+    #guided{
+        min-height: 800px;
+        height: 100vh;
+        position: relative;
+    }
+    #guided .black{
+        min-height: 700px;
+        height: 100vh;
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+    }
+    #guided .black img{
+        border-radius: 10px;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+    }
+    #guided p{
+        font: normal 3em "Arial";
+    }
+    #guided a{
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 15px;
+    }
+    #guided .text{
+        text-align: left !important;
+        position: relative;
+        left: 60px;
+        top: 300px;
+        text-align: left;
+        color: #fff;
+        left: 0;
+        
+    }
+  #specials .phone{
+    object-fit: contain;
+    max-width: 90%;
+  }
+  #saveIphone .card{
+    width: 32%;
+}
+#saveIphone .place{
+    font: bold 2.8em "Arial";
+}
+#ios .privacy ,#getmore .privacy{
+    width: 47%;
+    margin: 10px;
+}
+}
